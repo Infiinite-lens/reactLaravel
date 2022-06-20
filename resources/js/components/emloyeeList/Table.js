@@ -46,16 +46,6 @@ const Table = () => {
                                 employee__name={employee.employee__name}
                                 id={employee.id}
                             />,
-                            // <tr key={employee.id}>
-                            //     <th scope="row">{employee.id}</th>
-                            //     <td>{employee.employee__name}</td>
-                            //     <td>{employee.salary}</td>
-                            //     <td>
-                            //         <button className="btn btn-primary">
-                            //             Actions
-                            //         </button>
-                            //     </td>
-                            // </tr>,
                         ];
                     })}
                 </tbody>
