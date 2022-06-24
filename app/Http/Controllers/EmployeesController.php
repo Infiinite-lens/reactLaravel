@@ -13,7 +13,7 @@ class EmployeesController extends Controller
 
     public function getEmployeeList(){
         try {
-           $employees =  Employee::orderBy('id','DESC')->get();
+           $employees =  Employee::orderBy('id','ASC')->get();
            return response()-> json($employees);
         } catch (Exception $e) {
             Log::error($e);

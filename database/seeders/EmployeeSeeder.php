@@ -15,6 +15,6 @@ class EmployeeSeeder extends Seeder
      */
     public function run()
     {
-        Employee :: factory(100)->create();
+        Employee :: factory(100)->create();//creating fake database elements
     }
 }
